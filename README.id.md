@@ -4,7 +4,7 @@ Mencatat konten teknologi yang layak dibagikan setiap minggu, terbit setiap Juma
 
 Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](https://github.com/ruanyf/weekly/issues).
 
-> P.S. Diskusi ["Siapa yang sedang merekrut"](https://github.com/ruanyf/weekly/issues/10517) adalah posting lowongan programmer gratis yang menyediakan banyak info pekerjaan. Silakan unggah lowongan kerja Anda di sana.
+> P.S. Diskusi ["Siapa yang sedang merekrut"](https://github.com/ruanyf/weekly/issues/10517) adalah posting lowongan programmer gratis yang menyediakan banyak info pekerjaan. Silakan unggah lowongan kerja/magang.
 
 ## 2026
 
@@ -242,7 +242,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 **Oktober**
 
-- Edisi 275: [��得·蒂尔的实验](docs/issue-275.md)
+- Edisi 275: [彼得·蒂尔的实验](docs/issue-275.md)
 - Edisi 274: [加密通信的最后一块拼图](docs/issue-274.md)
 - Edisi 273: [任正非的三篇最新谈话](docs/issue-273.md)
 
@@ -349,7 +349,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 **Juli**
 
 - Edisi 216: [极简主义的胜利](docs/issue-216.md)
-- Edisi 215: [���联网最喜欢的行为模式](docs/issue-215.md)
+- Edisi 215: [互联网最喜欢的行为模式](docs/issue-215.md)
 - Edisi 214: [你的地图是错的](docs/issue-214.md)
 - Edisi 213: [知识孤岛，知识软件](docs/issue-213.md)
 - Edisi 212: [人生不短](docs/issue-212.md)
