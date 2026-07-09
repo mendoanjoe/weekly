@@ -1,0 +1,50 @@
+name: Sync upstream and update Indonesian markdown
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync with upstream
+        env:
+          UPSTREAM_REPOSITORY: ruanyf/weekly
+        run: |
+          git remote add upstream "https://github.com/${UPSTREAM_REPOSITORY}.git"
+          git fetch upstream master
+          git checkout master
+          git merge --no-edit upstream/master
+
+      - name: Regenerate Indonesian markdown files
+        run: python3 scripts/generate_readme_id.py
+
+      - name: Commit and push if changed
+        run: |
+          if ! git diff --quiet; then
+            git add -A '*.id.md'
+            git commit -m "chore: sync upstream and refresh Indonesian markdown files"
+          fi
+
+          if [ "$(git rev-list --count origin/master..HEAD)" -eq 0 ]; then
+            echo "No changes to push."
+            exit 0
+          fi
+
+          git push origin master
