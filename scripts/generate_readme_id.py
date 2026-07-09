@@ -60,11 +60,20 @@ def target_path_for(source_path: Path) -> Path:
     return source_path.with_suffix(".id.md")
 
 
+def should_generate(source_path: Path, target_path: Path) -> bool:
+    if source_path.name.lower() == "readme.md":
+        return True
+    return not target_path.exists()
+
+
 def translate_repository(root: Path) -> None:
     for source in sorted(root.rglob("*.md")):
         if ".git" in source.parts or not should_translate(source):
             continue
-        translate_file(source, target_path_for(source))
+        target = target_path_for(source)
+        if not should_generate(source, target):
+            continue
+        translate_file(source, target)
 
 
 def main() -> int:
