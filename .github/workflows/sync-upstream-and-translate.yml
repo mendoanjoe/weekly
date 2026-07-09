@@ -1,4 +1,4 @@
-name: Sync upstream and update Indonesian README
+name: Sync upstream and update Indonesian markdown
 
 on:
   workflow_dispatch:
@@ -32,14 +32,14 @@ jobs:
           git checkout master
           git merge --no-edit upstream/master
 
-      - name: Regenerate Indonesian README
-        run: python3 scripts/generate_readme_id.py README.md README.id.md
+      - name: Regenerate Indonesian markdown files
+        run: python3 scripts/generate_readme_id.py
 
       - name: Commit and push if changed
         run: |
           if ! git diff --quiet; then
-            git add README.id.md
-            git commit -m "chore: sync upstream and refresh Indonesian README"
+            git add -A '*.id.md'
+            git commit -m "chore: sync upstream and refresh Indonesian markdown files"
           fi
 
           if [ "$(git rev-list --count origin/master..HEAD)" -eq 0 ]; then

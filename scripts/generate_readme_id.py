@@ -46,14 +46,40 @@ def translate_line(line: str) -> str:
     return line
 
 
-def main() -> int:
-    input_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("README.md")
-    output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("README.id.md")
-
+def translate_file(input_path: Path, output_path: Path) -> None:
     lines = input_path.read_text(encoding="utf-8").splitlines(keepends=True)
     translated = [translate_line(line) for line in lines]
     output_path.write_text("".join(translated), encoding="utf-8")
-    return 0
+
+
+def should_translate(path: Path) -> bool:
+    return path.suffix == ".md" and not path.name.endswith(".id.md")
+
+
+def target_path_for(source_path: Path) -> Path:
+    return source_path.with_suffix(".id.md")
+
+
+def translate_repository(root: Path) -> None:
+    for source in sorted(root.rglob("*.md")):
+        if ".git" in source.parts or not should_translate(source):
+            continue
+        translate_file(source, target_path_for(source))
+
+
+def main() -> int:
+    args = sys.argv[1:]
+
+    if len(args) == 0:
+        translate_repository(Path("."))
+        return 0
+
+    if len(args) == 2:
+        translate_file(Path(args[0]), Path(args[1]))
+        return 0
+
+    print("Usage: generate_readme_id.py [<input.md> <output.id.md>]", file=sys.stderr)
+    return 1
 
 
 if __name__ == "__main__":
