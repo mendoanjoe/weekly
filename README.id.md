@@ -4,12 +4,13 @@ Mencatat konten teknologi yang layak dibagikan setiap minggu, terbit setiap Juma
 
 Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](https://github.com/ruanyf/weekly/issues).
 
-> P.S. Diskusi ["Siapa yang sedang merekrut"](https://github.com/ruanyf/weekly/issues/10517) adalah posting lowongan programmer gratis yang menyediakan banyak info pekerjaan. Silakan unggah lowongan kerja/magang.
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/10950)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎发布工作/实习岗位。
 
 ## 2026
 
 **Juli**
 
+- Edisi 406: [道可，道非，常道](docs/issue-406.md)
 - Edisi 405: [资源，社会公平与算力](docs/issue-405.md)
 - Edisi 404: [你需要知道的 AI 内存知识](docs/issue-404.md)
 - Edisi 403: [为什么 Dropbox 不成功](docs/issue-403.md)
