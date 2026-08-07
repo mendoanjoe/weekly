@@ -8,6 +8,10 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 ## 2026
 
+**Agustus**
+
+- Edisi 407: [国家为什么需要开源软件？](docs/issue-407.md)
+
 **Juli**
 
 - Edisi 406: [道可，道非，常道](docs/issue-406.md)
