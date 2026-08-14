@@ -10,6 +10,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 **Agustus**
 
+- Edisi 408: [你需要知道的 AI 缓存知识](docs/issue-408.md)
 - Edisi 407: [国家为什么需要开源软件？](docs/issue-407.md)
 
 **Juli**
