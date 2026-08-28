@@ -10,7 +10,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 **Agustus**
 
-- Edisi 410: [程序员的职业未来](docs/issue-410.md)
+- Edisi 410: [你需要知道的 AI 三种机制](docs/issue-410.md)
 - Edisi 409: [程序员的职业未来](docs/issue-409.md)
 - Edisi 408: [你需要知道的 AI 缓存知识](docs/issue-408.md)
 - Edisi 407: [国家为什么需要开源软件？](docs/issue-407.md)
