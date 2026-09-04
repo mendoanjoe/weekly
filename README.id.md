@@ -4,9 +4,13 @@ Mencatat konten teknologi yang layak dibagikan setiap minggu, terbit setiap Juma
 
 Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](https://github.com/ruanyf/weekly/issues).
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/10950)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/11434)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎发布工作/实习岗位。
 
 ## 2026
+
+**September**
+
+- Edisi 411: [OpenClaw 2.0 是一个缩影](docs/issue-411.md)
 
 **Agustus**
 
