@@ -10,6 +10,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 **September**
 
+- Edisi 412: [禁止 issue，只用 PR](docs/issue-412.md)
 - Edisi 411: [OpenClaw 2.0 是一个缩影](docs/issue-411.md)
 
 **Agustus**
