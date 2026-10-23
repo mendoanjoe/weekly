@@ -10,6 +10,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 **Oktober**
 
+- Edisi 416: [编程已经面目全非](docs/issue-416.md)
 - Edisi 415: [3D 版《看不见的城市》](docs/issue-415.md)
 - Edisi 414: [Jev 决策模型有什么用](docs/issue-414.md)
 
