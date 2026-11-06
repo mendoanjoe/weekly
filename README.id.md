@@ -4,9 +4,13 @@ Mencatat konten teknologi yang layak dibagikan setiap minggu, terbit setiap Juma
 
 Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](https://github.com/ruanyf/weekly/issues).
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/12009)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/12953)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎发布工作/实习岗位。
 
 ## 2026
+
+**November**
+
+- Edisi 418: [如果科技停止在21世纪初](docs/issue-418.md)
 
 **Oktober**
 
