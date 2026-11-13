@@ -10,6 +10,7 @@ Silakan kirim kontribusi artikel/perangkat lunak/sumber daya melalui [issue](htt
 
 **November**
 
+- Edisi 419: [机房来了，写字楼走了](docs/issue-419.md)
 - Edisi 418: [如果科技停止在21世纪初](docs/issue-418.md)
 
 **Oktober**
